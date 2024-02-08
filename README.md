@@ -10,10 +10,21 @@ make
 # How to play the game
 
 ## Todos
-- Create objects that will be "falling down" from the screen
+- Clear a line if it is complete
+- Create blocks that will be "falling down" from the screen
 - Create the game loop
-- Add the game over functionality. game is over if any object reaches the top of the screen
-- Make sure the objects cannot go more than the left and right boundaries
+- Ability to flip the blocks if up arrow is pressed
+- speed up the block descent in case the user presses the down arrow
+- Add the game over functionality. game is over if any block reaches the top of the screen
+- Make sure the blocks cannot go more than the left and right boundaries
+- Each block can be one of seven types
+	* L block - 0
+	* I block - 1
+	* Square block - 2
+	* J block - 3
+	* L block - 4
+	* Z block - 5
+	* S block - 6
 
 ## Done
 
